@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productivity Mate</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="l-container">
+      <div class="todo-app">
+        <h2>To-Do List <i class="fa-solid fa-list"></i></h2>
+
+        <div class="row">
+          <input
+            type="text"
+            name=""
+            id="input-box"
+            placeholder="Enter your tasks...  "
+          />
+          <button onclick="addTask()">
+            <i class="fa-solid fa-plus" style="color: #000000"></i>
+          </button>
+        </div>
+        <div class="list-wrap">
+          <ul id="list-container"></ul>
+        </div>
+      </div>
+      <div class="block-1"></div>
+    </div>
+    <div class="container">
+      <div class="section-container">
+        <div class="time-wrap">
+          <span id="time"></span>
+        </div>
+        <div class="btn-container">
+          <button id="btn-start" class="show">
+            <i class="fa-solid fa-play"></i>
+          </button>
+          <button id="btn-pause" class="hide">
+            <i class="fa-solid fa-pause"></i>
+          </button>
+          <button id="btn-reset" class="hide">
+            <i class="fa-solid fa-rotate-right"></i>
+          </button>
+        </div>
+        <button id="focus" class="btn btn-timer btn-focus">Focus</button>
+        <button id="shortbreak" class="btn btn-shortbreak">Short Break</button>
+        <button id="longbreak" class="btn btn-longbreak">Long Break</button>
+        <div class="settings-wrap">
+          <button id="settings" class="btn-set" onclick="toggleMenu()">
+            <i class="fa-solid fa-gear"></i>
+          </button>
+          <div class="settings-form" id="subMenu">
+            <form action=".">
+              <label for="focusTime">Focus Time</label>
+              <input type="number" value="1" id="focusTime" />
+              <label for="ShortbreakTime">Short Break</label>
+              <input type="number" value="1" id="ShortbreakTime" />
+              <label for="LongbreakTime">Long Break</label>
+              <input type="number" value="1" id="LongbreakTime" />
+              <button class="save-button" type="submit">Save settings</button>
+              <p>🛈 Settings apply for next Session.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="spotify-container">
+      <input
+        type="text"
+        id="playlist-url"
+        placeholder="Enter Spotify Playlist URL"
+      />
+      <h4 class="hero-btn" onclick="embedPlaylist()">
+        <a href="#">Embed </a>
+      </h4>
+    </div>
+    <div id="playlist-container"></div>
+
+    <!-- Script -->
+
+    <script>
+      var body = document.getElementsByTagName('body');
+      var div = document.createElement('div');
+      var host = window.location.host
+        ? window.location.origin
+        : 'http://localhost/';
+      div.innerHTML = `<iframe id="synvision_ai_iframe" name="synvision_ai_iframe" src="http://synvision.ai/chat-iframe?uuid=F5oOsyzO&host=${host}" height = "760px" width = "550px" style="position:fixed;right:20px;bottom: 300px;z-index: 10000;border:none"></iframe>`;
+      document.body.appendChild(div);
+    </script>
+
+    <script src="script.js"></script>
+    <script>
+      let subMenu = document.getElementById('subMenu');
+
+      function toggleMenu() {
+        subMenu.classList.toggle('open-menu');
+      }
+    </script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
