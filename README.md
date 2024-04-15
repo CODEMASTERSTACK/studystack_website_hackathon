@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.postimg.cc/8PnyczWf/logo1.png" width="100" />
+  <img src="https://i.postimg.cc/8PnyczWf/logo1.png" width="400" />
 </p>
 <p align="center">
     <h1 align="center">STUDYSTACK_WEBSITE_HACKATHON</h1>
