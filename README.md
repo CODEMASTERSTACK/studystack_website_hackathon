@@ -14,8 +14,8 @@
         <li>User email : johndoe@gmail.com </li>
         <li>User password : idk </li>
     </ul><br>
-    <a style="text-align:center" style="font-size:23px" href="https://slidesgo.com/editor/share/9bce6ec1-3566-4c2a-9993-976f55986725#rs=link/" target="_blank">Link to Website Explanation PPT </a><br>
-    <a style="text-align:center"style="font-size:23px" href="https://vimeo.com/934565614?share=copy" target="_blank">Link to Website Tutorial Video</a><br>
+    <a style="font-size:23px; text-align:center" href="https://slidesgo.com/editor/share/9bce6ec1-3566-4c2a-9993-976f55986725#rs=link/" target="_blank">Link to Website Explanation PPT </a><br>
+    <a style="font-size:23px;text-align:center" href="https://vimeo.com/934565614?share=copy" target="_blank">Link to Website Tutorial Video</a><br>
 
 </p>
 <p align="center">
