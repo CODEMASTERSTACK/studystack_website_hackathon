@@ -7,15 +7,15 @@
 <p align="center">
     <em>All Notes and Resources in one place</em><br>
     <a style="font-size:23px" href="https://codevengers.000webhostapp.com/" target="_blank">Link to Website </a><br>
-    <p align="center">  Login Credentials  </p><br>
-    <ul align="center">
+    <p style="text-align:center">  Login Credentials  </p><br>
+    <ul style="text-align:center">
         <li>Admin email : vedbhor25@gmail.com </li>
         <li>Admin password : idk </li>
         <li>User email : johndoe@gmail.com </li>
         <li>User password : idk </li>
     </ul><br>
-    <a align="center" style="font-size:23px" href="https://slidesgo.com/editor/share/9bce6ec1-3566-4c2a-9993-976f55986725#rs=link/" target="_blank">Link to Website Explanation PPT </a><br>
-    <a align="center" style="font-size:23px" href="https://vimeo.com/934565614?share=copy" target="_blank">Link to Website Tutorial Video</a><br>
+    <a style="text-align:center" style="font-size:23px" href="https://slidesgo.com/editor/share/9bce6ec1-3566-4c2a-9993-976f55986725#rs=link/" target="_blank">Link to Website Explanation PPT </a><br>
+    <a style="text-align:center"style="font-size:23px" href="https://vimeo.com/934565614?share=copy" target="_blank">Link to Website Tutorial Video</a><br>
 
 </p>
 <p align="center">
