@@ -5,8 +5,10 @@
     <h1 align="center">STUDYSTACK_WEBSITE_HACKATHON</h1>
 </p>
 <p align="center">
-    <em>All Notes and Resources in one place</em>
-    <a href="https://codevengers.000webhostapp.com/">Link to Website </a>
+    <em>All Notes and Resources in one place</em><br>
+    <a style="font-size:23px" href="https://codevengers.000webhostapp.com/">Link to Website </a><br>
+    <a style="font-size:23px" href="https://slidesgo.com/editor/share/9bce6ec1-3566-4c2a-9993-976f55986725#rs=link/">Link to Website Explanation PPT </a><br>
+    <a style="font-size:23px" href="https://vimeo.com/934565614?share=copy">Link to Website Tutorial Video</a><br>
 
 </p>
 <p align="center">
