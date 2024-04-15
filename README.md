@@ -7,7 +7,7 @@
 <p align="center">
     <em>All Notes and Resources in one place</em><br>
     <a style="font-size:23px" href="https://codevengers.000webhostapp.com/" target="_blank">Link to Website </a><br>
-    <p style="text-align:center">  Login Credentials  </p><br>
+    <p style="text-align:left">  Login Credentials  </p><br>
     <ul style="text-align:center">
         <li>Admin email : vedbhor25@gmail.com </li>
         <li>Admin password : idk </li>
